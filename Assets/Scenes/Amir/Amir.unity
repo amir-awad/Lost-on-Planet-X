@@ -122,6 +122,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!95 &307029934 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 397a2377f8e99c20f82bc4c501dcb0fa, type: 3}
+  m_PrefabInstance: {fileID: 1577486102}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &478186483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -227,8 +232,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 1.29, z: -3.04}
-  m_XDamping: 1
-  m_YDamping: 1
+  m_XDamping: 1.05
+  m_YDamping: 1.05
   m_ZDamping: 1
   m_AngularDampingMode: 0
   m_PitchDamping: 0
@@ -825,6 +830,8 @@ PlayableDirector:
     value: {fileID: 1692572061}
   - key: {fileID: -6544904228930704642, guid: 421d7df7d2579e3c089d2b5bde5b4f27, type: 2}
     value: {fileID: 1591549407}
+  - key: {fileID: 984629538789988305, guid: 421d7df7d2579e3c089d2b5bde5b4f27, type: 2}
+    value: {fileID: 307029934}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1324471399
