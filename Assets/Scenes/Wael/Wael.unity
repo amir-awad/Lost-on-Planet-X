@@ -152,8 +152,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1708806946}
   - {fileID: 1748998308}
+  - {fileID: 1708806946}
   - {fileID: 895179609}
   m_Father: {fileID: 1816882137}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 895179611}
   - component: {fileID: 895179610}
   m_Layer: 5
-  m_Name: Right
+  m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1917,8 +1917,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a6895724c2af1d46937f97a841518f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftButton: {fileID: 1748998307}
-  rightButton: {fileID: 895179608}
+  leftButton: {fileID: 895179610}
+  rightButton: {fileID: 1748998309}
   choicePanel: {fileID: 179590489}
   loadTimelineButton: {fileID: 1086054376}
   myText: {fileID: 1139342832}
@@ -1935,7 +1935,7 @@ GameObject:
   - component: {fileID: 1748998310}
   - component: {fileID: 1748998309}
   m_Layer: 5
-  m_Name: Left
+  m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1948,7 +1948,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748998307}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1958,7 +1958,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 134.5, y: -3.2}
+  m_AnchoredPosition: {x: 134.5, y: -3.200015}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1748998309
