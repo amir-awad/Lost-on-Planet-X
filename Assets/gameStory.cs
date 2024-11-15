@@ -95,7 +95,16 @@ public class gameStory : MonoBehaviour
         // Hide any other UI elements if necessary
         choicePanel.SetActive(false);
 
-        myText.text = "Credits:\nAnimations: Mixamo\nModels: Mixamo\nSound Tracks: Pixabay";
+        myText.text = "Credits:\n" +
+                  "Animations: Mixamo\n" +
+                  "Models: Mixamo\n" +
+                  "Sound Tracks: Pixabay\n\n" +
+                  "Development Team:\n" +
+                  "- Amir Tarek\n" +
+                  "- Ahmed Wael\n" +
+                  "- John Fayez\n" +
+                  "- Ibrahim Soltan\n" +
+                    "- Mohammed Mo7y\n";
 
         // Hide the backToStartMenu button
         backToStartMenu.SetActive(false);
