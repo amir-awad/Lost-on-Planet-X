@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1522562386}
   m_Lens:
     FieldOfView: 60.000004
     OrthographicSize: 5
@@ -616,14 +616,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276444807}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.16457093, y: 0.51031876, z: -0.10004008, w: -0.8381427}
-  m_LocalPosition: {x: 66.8024, y: -7.999857, z: -87.52273}
+  m_LocalRotation: {x: 0, y: -0.30403313, z: 0, w: 0.9526615}
+  m_LocalPosition: {x: -3.2477477, y: -79.05499, z: -76.197}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2123048371}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -35.4, z: 0}
 --- !u!1 &278309284
 GameObject:
   m_ObjectHideFlags: 0
@@ -2779,8 +2779,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802039108}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.080889985, y: -0.7214685, z: -0.085805334, w: 0.6823324}
-  m_LocalPosition: {x: -1.3844128, y: 0.95898056, z: 0.16650903}
+  m_LocalRotation: {x: -0.0000000010377528, y: -0.3293855, z: -2.9656422e-10, w: 0.94419557}
+  m_LocalPosition: {x: 53.8, y: -2.4, z: -94.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3397,6 +3397,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 397a2377f8e99c20f82bc4c501dcb0fa, type: 3}
+--- !u!4 &1522562386 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5465940246521907071, guid: f249293a341a4805ea782ea465076304, type: 3}
+  m_PrefabInstance: {fileID: 416212933}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1658618097
 GameObject:
   m_ObjectHideFlags: 3
@@ -3974,13 +3979,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 0, z: -10}
+  m_FollowOffset: {x: 0, y: 0, z: 21.6}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
   m_AngularDampingMode: 0
   m_PitchDamping: 0
-  m_YawDamping: 0
+  m_YawDamping: 11.47
   m_RollDamping: 0
   m_AngularDamping: 0
 --- !u!114 &2123048373
