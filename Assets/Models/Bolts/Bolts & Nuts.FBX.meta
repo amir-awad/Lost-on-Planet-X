@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: 123f1923eae095a4abc2831c6c11b5b2
+guid: 34d55c3dd976eb343846889b295da40f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt1
+    second: {fileID: 2100000, guid: d105d7b9060604c419ec8a25182dd403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bolt2
+    second: {fileID: 2100000, guid: d105d7b9060604c419ec8a25182dd403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nut1
+    second: {fileID: 2100000, guid: d105d7b9060604c419ec8a25182dd403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nut2
+    second: {fileID: 2100000, guid: d105d7b9060604c419ec8a25182dd403, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -77,8 +97,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 679596efa41ba4fceb0e85913b6416d3
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
